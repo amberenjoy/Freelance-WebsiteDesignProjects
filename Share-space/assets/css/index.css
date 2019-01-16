@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.text-center {
+    text-align: center
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    position: fixed;
+    z-index: 99;
+}
+
+.small {
+    height: 45px;
+    background: #333;
+    padding: 5px 0;
+}
+
+nav {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav a {
+    font-size: 1.3em;
+    padding: 5px 0;
+    margin: 20px 10px 5px;
+    font-family: 'Lora', serif;
+    color: rgba(5, 183, 255, 1);
+    display: inline-block;
+    cursor: pointer;
+    text-shadow: 1px 1px rgba(51, 51, 51, 1), -1px -1px rgba(51, 51, 51, 1), 1px -1px rgba(51, 51, 51, 1), -1px 1px rgba(51, 51, 51, 1);
+}
+
+.small nav a {
+    margin-top: 5px;
+}
+
+header,
+nav a {
+    transition: all .5s;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bg.jpg) 100% 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+.title h1 {
+    font: 76px 'Pacifico', cursive;
+    text-shadow: 1px 1px 1px #333;
+    margin-bottom: 0;
+    text-shadow: 4px 4px rgba(33, 33, 33, 0.7), -4px -4px rgba(33, 33, 33, 0.7), 4px -4px rgba(33, 33, 33, 0.7), -4px 4px rgba(33, 33, 33, 0.7);
+    color: rgba(5, 183, 255, 1);
+}
+
+.title p {
+    font: 1.6em 'Lora', serif;
+    text-shadow: 1px 1px 1px #333;
+    margin-top: 5px;
+    color: rgba(5, 183, 255, 1);
+    letter-spacing: 2px;
+    text-shadow: 1px 1px rgba(51, 51, 51, 1), -1px -1px rgba(51, 51, 51, 1), 1px -1px rgba(51, 51, 51, 1), -1px 1px rgba(51, 51, 51, 1);
+}
+
+.section {
+    max-width: 1600px;
+    width: 90%;
+    min-height: 200px;
+    margin: 3em auto;
+}
+
+.flex-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.sub-header {
+    color: #fff;
+    text-align: center
+}
+
+.sub-header h1 {
+    font: 3em 'Lora', sans-serif;
+    padding: 40px;
+}
+
+.sub-header-0 h1 {
+    background: rgba(4, 137, 192, 1)
+}
+
+.sub-header-1 h1 {
+    background: rgba(3, 117, 161, 1)
+}
+
+.sub-header-2 h1 {
+    background: #4d6e88;
+}
+
+.type-img {
+    width: 33.33% !important;
+    padding: 10px;
+}
+
+.info {
+    width: 50%;
+}
+
+.google {
+    width: 60%;
+    display: inline-block
+}
+
+.google-info {
+    float: right;
+    width: 40%;
+    height: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+    background: rgb(245, 245, 245);
+    height: 420px;
+}
+
+.google-info h1 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: normal;
+    color: rgb(60, 60, 70);
+    font-size: 1.3em;
+}
+
+.det {
+    font-size: 14px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 3px;
+    font: 14px sans-serif;
+}
+
+.det i {
+    font-size: 1em;
+    display: inline-block;
+    margin-right: 4px;
+    width: 18px;
+}
+
+.social span {
+    display: inline-block;
+    width: 40px;
+    /* height: 40px; */
+    font-size: 2em;
+    text-align: center;
+    border-radius: 10px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.social span:first-child i {
+    color: #046cbc;
+}
+
+.social span:last-child i {
+    color: #04d158;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.snip1566 {
+    position: relative;
+    display: inline-block;
+    max-width: 190px;
+    width: 25%;
+    color: #bbb;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.snip1566>div {
+    width: 100%;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.snip1566 figcaption {
+    text-align: center;
+    opacity: 1
+}
+
+.snip1566 span {
+    font-size: 14px;
+    color: #333;
+}
+
+.flex-info {
+    margin-top: 10px;
+    text-align: center
+}
+
+@media (max-width: 600px) {
+    .title h1 {
+        font-size: 60px;
+    }
+    .sub-header h1 {
+        font-size: 2em;
+        padding: 20px;
+    }
+    .active {
+        flex-wrap: wrap;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+    .flex-box {
+        flex-wrap: wrap;
+    }
+    .type-img,
+    .google,
+    .google-info {
+        width: 100% !important;
+        float: none;
+    }
+    .snip1566 {
+        width: 50%;
+        margin: 13px 0;
+    }
+    .snip1566 figcaption {
+        background: transparent;
+        opacity: 1;
+    }
+    .snip1566:before,
+    .snip1566:after {
+        top: 2px;
+        bottom: 2px;
+        left: 2px;
+        right: 2px;
+        z-index: -1;
+    }
+    .google-info {
+        height: auto;
+    }
+}
